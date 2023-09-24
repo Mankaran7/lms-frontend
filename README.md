@@ -24,7 +24,7 @@
 ```
     npm run dev
 ```
-### How to setup taildinw in your project [Link](https://tailwindcss.com/docs/guides/vite)
+### How to setup tailwind in your project [Link](https://tailwindcss.com/docs/guides/vite)
 
 1. Install tailwind and other dependencies
 ```
@@ -52,3 +52,8 @@
 ```
 
 5. Then run the server, tailwind should be integrated....
+### Adding plugins and dependencies
+
+```
+    npm install @reduxjs/toolkit react-redux react-router-dom react-icons react-chartjs-2 chart.js daisyui axios react-hot-toast @tailwindcss/line-clamp
+```

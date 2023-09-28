@@ -2,13 +2,14 @@ import { Route, Routes } from 'react-router-dom'
 
 import Aboutus from './pages/AboutUs'
 import Home from './pages/Home'
-
+import Notfound from './pages/Notfound'
 function App() {
 
   return (
     <Routes>
       <Route path='/' element={<Home />} />
       <Route path='/about' element={<Aboutus />} />
+      <Route path='*' element={<Notfound />} />
     </Routes>
   )
 }
